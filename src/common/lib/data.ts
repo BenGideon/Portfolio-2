@@ -74,44 +74,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Software Engineer Intern',
-    location: 'E-Care Medical Clinic, Houston, United States',
+    title: 'Software Developer',
+    location: 'United Health Group, Minnesota',
     description:
-      'Designed and developed the main website and Learning Management System (LMS) for medical education programs using a modern tech stack. Implemented the frontend with Next.js and Tailwind CSS, and built the backend using .NET and C#. Managed database services on Microsoft Azure for scalable and secure data handling.',
+      'Designed and maintained backend services using Java, Spring Boot, and Hibernate for healthcare workflows including patient enrollment, provider management, and claims processing, supporting 10K+ active patient records. Developed RESTful APIs within a Microservices Architecture. Deployed applications on AWS EC2, S3, and RDS. Containerized services using Docker and Kubernetes. Implemented asynchronous event processing using Kafka. Integrated AI-powered features using OpenAI APIs for clinical note summarization.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2025 – Present',
+    date: 'Jun 2025 – Current',
+  },
+  {
+    title: 'Software Developer (Intern)',
+    location: 'United Health Group, Minnesota',
+    description:
+      'Assisted in developing backend APIs using Python, Django, and Django REST Framework for patient data intake and appointment scheduling modules, following HIPAA-aware design. Implemented frontend components using JavaScript (ES6), React.js, and Bootstrap. Created schemas using SQL Server. Contributed to lightweight backend services using Node.js and Express.js. Supported deployment activities using AWS EC2 and S3.',
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Jan 2025 – May 2025',
   },
   {
     title: "Master's in Computer Science",
     location: 'University of Houston, Texas, USA',
     description:
-      'Focus in Machine Learning, Cloud Computing, and Computer Networks. CGPA: 3.67',
+      'Focus in Machine Learning, Cloud Computing, and Computer Networks.',
     icon: React.createElement(BookIcon),
     date: 'Aug 2023 – May 2025',
   },
   {
-    title: 'Custom Software Engineering Associate',
-    location: 'Accenture Solutions Pvt. Ltd, Hyderabad, India',
+    title: 'Software Engineer',
+    location: 'Cybage Software, India',
     description:
-      'Designed and implemented scalable microservices using Java Spring Boot, reducing API response times by 30%. Led cloud deployment automation on AWS and Azure using Terraform. Mentored junior developers and improved cross-functional collaboration across Agile teams.',
+      'Built scalable, data-driven APIs for user management and reporting modules using Python and Django REST Framework, optimizing PostgreSQL queries to improve average response time by 20%. Designed responsive UI components using JavaScript (ES6+) and React.js. Implemented lightweight microservices using Node.js and Express.js. Deployed applications on AWS EC2, S3, and RDS. Containerized applications using Docker and Git-based CI/CD pipelines. Created unit and integration test cases using JUnit, PyTest, and Jest.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Aug 2022 – Jun 2023',
+    date: 'Feb 2021 – Jun 2023',
   },
   {
-    title: 'Custom Software Engineering Associate',
-    location: 'Accenture Solutions Pvt. Ltd, Hyderabad, India',
+    title: "Bachelor's in Computer Science",
+    location: 'Vellore Institute of Technology, Amaravati',
     description:
-      'Developed and automated risk exposure processes using Python, reducing manual effort by 65%. Collaborated with global teams to analyze SQL reports and improve project delivery using Agile (Kanban), JIRA, and qTest.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Aug 2021 – Jul 2022',
-  },
-  {
-    title: 'Software Engineer Intern',
-    location: 'Plural Technology Private Limited, Pune, India',
-    description:
-      'Built ML models for predictive maintenance in aerospace logistics. Enhanced the company website with real-time dashboards for better decision-making.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Feb 2021 – Jul 2021',
+      'Completed B.Tech in Computer Science with focus on software engineering fundamentals and modern application development.',
+    icon: React.createElement(BookIcon),
+    date: 'Aug 2017 – May 2021',
   },
 ] as const;
 
@@ -217,43 +217,53 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  // 🌐 Frontend
+  // 🌐 Frontend Technologies
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
-  ['Sass', '/svgs/Sass.svg'],
   ['JavaScript', '/svgs/javascript-js.svg'],
   ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
-  ['Redux', '/svgs/redux-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
-  ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
+  ['Bootstrap', '/svgs/etc.svg'],
 
-  // 🛠️ Backend
+  // 🛠️ Backend & Frameworks
+  ['Java', '/svgs/etc.svg'],
+  ['Spring Boot', '/svgs/etc.svg'],
+  ['Python', '/svgs/etc.svg'],
+  ['Django', '/svgs/etc.svg'],
   ['Node.js', '/svgs/node-js.svg'],
   ['Express', '/svgs/express-original.svg'],
-  ['Golang', '/svgs/golang.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
-  ['Axios', '/svgs/axios.svg'],
+  ['C#', '/svgs/etc.svg'],
+  ['.NET Core', '/svgs/etc.svg'],
 
   // 🗄️ Databases
-  ['MongoDB', '/svgs/mongodb-original.svg'],
   ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
+  ['MongoDB', '/svgs/mongodb-original.svg'],
+  ['Redis', '/svgs/etc.svg'],
+  ['SQL Server', '/svgs/etc.svg'],
 
-  // ☁️ DevOps / Infra
+  // ☁️ Cloud Platforms
+  ['AWS', '/svgs/etc.svg'],
+  ['Azure', '/svgs/etc.svg'],
+  ['GCP', '/svgs/etc.svg'],
+
+  // 🚀 DevOps & CI/CD
   ['Docker', '/svgs/Docker.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
-
-  // 🧰 Tools & Libraries
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
+  ['Kubernetes', '/svgs/etc.svg'],
+  ['Jenkins', '/svgs/etc.svg'],
   ['Git', '/svgs/git.svg'],
   ['GitHub', '/svgs/github.svg'],
+  ['Terraform', '/svgs/etc.svg'],
+
+  // 🤖 AI/ML & Testing
+  ['OpenAI APIs', '/svgs/etc.svg'],
+  ['JUnit', '/svgs/etc.svg'],
+  ['PyTest', '/svgs/etc.svg'],
+  ['Jest', '/svgs/etc.svg'],
 
   // ➕ Misc
-  ['', '/svgs/etc.svg'],
+  ['Kafka', '/svgs/etc.svg'],
+  ['REST APIs', '/svgs/etc.svg'],
 ] as const;
